@@ -1,0 +1,6 @@
+Algorithm
+Please give some examples from daily life where you find algorithms being used.
+
+1. Google Maps helps you find the shortest route between any two given destinations.
+2. Automated teller machines help in banking transactions.
+These examples run different algorithms to perform corresponding operations.
