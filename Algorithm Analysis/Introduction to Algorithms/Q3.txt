@@ -1,0 +1,26 @@
+Algorithms
+List the major differences between the two algorithms discussed so far.
+
+In algorithm 1, you use only one array variable for registered student IDs and two for loops to iterate across the data and find duplicate student IDs.However, in algorithm 2, an extra count array variable is declared to keep the count of the duplicate student IDs, and one for loop is used to iterate through the input data.
+
+
+
+Algorithms
+Give examples in which the same computational problem can be solved by two different algorithms.
+
+One example can be the sum of first n consecutive natural numbers calculated either by using a single for loop or by using a simple arithmetic formula such as 
+n(n+1)/2.
+
+
+
+Algorithms
+Before we dig deep into the subject, which algorithm do you think executes faster in finding the duplicate student ID?
+
+Algorithm 2, using a count array variable
+
+
+
+Algorithms
+Why do you think the algorithm you chose in the previous question executes faster? Give reasons.
+
+I think it's all related to time complexity. Algorithm 1 has 2 for loops due to which its time complexity is greater when compared to Algorithm 2 . Algorithm 2 is more efficient
