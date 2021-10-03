@@ -1,0 +1,25 @@
+Big O
+Reduce the time complexity function of an algorithm,
+
+T(n)=5n^3+3n^2+4, using the Big O notation.
+
+O(n^3)
+On dropping the constant multipliers and less significant terms, you can observe the order of the function is 3; hence, it belongs to O(n^3)
+
+
+
+Time Complexity
+Simplify the following functions and choose the right option.
+
+i) T(n)=2n^2+3
+
+ii)
+T(n)=3n^3+5n^2+2n+7
+ 
+
+iii)
+T(n)=6n+1
+
+O(n^2),O(n^3),O(n)
+On dropping the constant multipliers and less significant terms, the order of the first function is quadratic, the order of the second function is cubic, and the order of the third function is linear. So, 
+O(n^2),O(n^3),andO(n).
