@@ -18,3 +18,10 @@ Note: 'Break' instruction is removed, and rest of the code remains same.
 
 n(n−1)/2
 The break instruction is executed when there is duplicate data. On removing the instruction, the inner loop iterates through each data cell till the value of j equals the length of the array, irrespective of the input data. So in total, this algorithm takes n(n-1)/2steps. This is the worst case of algorithm 1, when there are no duplicate student IDs in the given data.
+
+
+
+Space Complexity
+Which algorithm needs more memory space, between algorithm 1 (iterating using two for loops) and algorithm 2 (using count [ ] array), to find the duplicate student IDs?
+
+Algorithm 2 needs more memory space when compared with algorithm 1. This is because algorithm 2 declares a count array of size 10,000 besides the input array id[]. Also, the count array size increases as the number of students in the university increases. The count array size depends on the highest possible student ID, whereas algorithm 1 requires a constant memory space, irrespective of the number of students in the university.
