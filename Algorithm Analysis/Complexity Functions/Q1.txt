@@ -1,0 +1,20 @@
+Algorithm
+What is the total no of times the inner loop(j) instruction set is executed in the given algorithm?
+
+Note: 'Break' instruction is removed, and rest of the code remains same.
+
+ 
+
+    public void findDuplicates(int[] id) {
+        System.out.println("Duplicate student id : ");
+        for (int i = 0; i < id.length; i++) {
+            for (int j = i +1; j < id.length; j++) {
+                if (id[i] == id[j])
+                    System.out.print(id[i] + " ");
+            }
+        }
+    }
+
+
+n(n−1)/2
+The break instruction is executed when there is duplicate data. On removing the instruction, the inner loop iterates through each data cell till the value of j equals the length of the array, irrespective of the input data. So in total, this algorithm takes n(n-1)/2steps. This is the worst case of algorithm 1, when there are no duplicate student IDs in the given data.
