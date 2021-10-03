@@ -1,0 +1,22 @@
+Algorithm
+What do you think is the worst case of algorithm 1?
+
+public void findDuplicates(int[]id){
+    System.out.println("Duplicate student id : ");
+    for(int i=0;i<id.length;i++){
+        for(int j=i+1;j<id.length;j++){
+            if(id[i]==id[j]){
+                System.out.print(id[i]+" ");
+                break;
+            }
+        }
+    }
+}
+
+In algorithm 1,
+if (id[i] == id[j]) {
+System.out.print(id[i] + " ");
+break;
+}
+The above inner loop(j) instruction set is executed maximum no of times(worst case) when there are no duplicate student IDs in the given data.
+If there are any duplicate IDs, then the inner loop prints the student ID and breaks out of the inner loop(j).
